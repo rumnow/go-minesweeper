@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package minesweeper_v1;
+
+//option go_package = ""
+
+message CellInfo {
+    int64 id = 1;
+    int64 cell = 2;
+}
